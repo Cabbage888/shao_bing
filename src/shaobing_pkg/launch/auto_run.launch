@@ -1,0 +1,14 @@
+<launch>
+    <!-- 3相机节点 -->
+	<node pkg="shaobing_pkg" type="camera1_node" name="camera1_node"/>
+	<node pkg="shaobing_pkg" type="camera2_node" name="camera2_node"/>
+	<node pkg="shaobing_pkg" type="camera3_node" name="camera3_node"/>
+	<!-- 模拟电控节点 -->
+	<node pkg="diankong_pkg" type="diankong_node" name="diankong_node"/>
+    <!-- 测试节点 -->
+	<node pkg="atr_pkg" type="sub_node" name="sub_node" output="screen"/>
+	<!-- 汇总节点 -->
+	<node pkg="shaobing_pkg" type="camera_sum_node" name="camera_sum_node" output="screen"/>
+
+
+</launch>

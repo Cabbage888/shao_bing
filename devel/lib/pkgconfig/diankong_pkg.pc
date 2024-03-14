@@ -1,0 +1,8 @@
+prefix=/home/hj/shaobing_ws/devel
+
+Name: diankong_pkg
+Description: Description of diankong_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

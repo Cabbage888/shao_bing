@@ -1,0 +1,2 @@
+atr_pkg:diankong_pkg:new_msgs:shaobing_pkg
+-DCATKIN_DEVEL_PREFIX=/home/hj/shaobing_ws/devel -DCMAKE_INSTALL_PREFIX=/home/hj/shaobing_ws/install -G Unix Makefiles
